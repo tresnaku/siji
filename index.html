@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berita Hari Ini - Portal Berita Terkini</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+        }
+
+        .header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .nav {
+            background-color: #34495e;
+            padding: 1rem;
+        }
+
+        .nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        .nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .featured-article {
+            margin-bottom: 3rem;
+        }
+
+        .featured-article img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .article-content {
+            margin-top: 2rem;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .news-card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 1rem;
+        }
+
+        .news-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+
+        .category-tag {
+            background-color: #e74c3c;
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 3px;
+            display: inline-block;
+            margin: 0.5rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>BERITA HARI INI</h1>
+        <p>Portal Berita Terpercaya dan Terkini</p>
+    </header>
+
+    <nav class="nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#politik">Politik</a></li>
+            <li><a href="#ekonomi">Ekonomi</a></li>
+            <li><a href="#teknologi">Teknologi</a></li>
+            <li><a href="#olahraga">Olahraga</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <article class="featured-article">
+            <h2>Inovasi Terbaru di Dunia Teknologi: Smartphone dengan Baterai 7 Hari</h2>
+            <span class="category-tag">Teknologi</span>
+            <img src="https://picsum.photos/1200/400" alt="Gambar Teknologi">
+            
+            <div class="article-content">
+                <p><strong>Jakarta</strong> - Perusahaan teknologi asal Tiongkok, Huawei, baru saja memperkenalkan smartphone terbarunya yang diklaim mampu bertahan hingga 7 hari pemakaian normal dengan sekali pengisian daya. Inovasi ini menjadi terobosan baru dalam industri smartphone yang selama ini bergulat dengan masalah ketahanan baterai.</p>
+
+                <p>Smartphone bernama Huawei Marathon X ini menggunakan teknologi baterai graphene generasi kedua yang lebih efisien dan ramah lingkungan. Selain itu, chipset khusus yang dikembangkan Huawei berhasil mengoptimalkan penggunaan daya hingga 40% lebih hemat dibandingkan generasi sebelumnya.</p>
+
+                <h3>Spesifikasi Utama</h3>
+                <ul>
+                    <li>Kapasitas Baterai: 8000mAh</li>
+                    <li>Layar AMOLED 6.7 inci 120Hz</li>
+                    <li>Prosesor Kirin 990 5G</li>
+                    <li>Kamera Quad 64MP</li>
+                </ul>
+
+                <p>CEO Huawei Consumer Business Group, Richard Yu, menyatakan bahwa inovasi ini akan mengubah cara masyarakat menggunakan smartphone. "Dengan baterai yang bisa bertahan seminggu, pengguna tidak perlu lagi cemas mencari charger setiap hari," ujarnya dalam konferensi pers virtual.</p>
+
+                <p>Smartphone ini rencananya akan mulai dipasarkan di Asia Tenggara pada akhir bulan depan dengan harga diperkirakan mulai dari Rp 12 juta untuk varian dasar. Analis pasar memprediksi produk ini akan menjadi pesaing kuat untuk merek premium seperti Apple dan Samsung.</p>
+            </div>
+            <p class="author">Ditulis oleh: John Doe - 15 Maret 2024</p>
+        </article>
+
+        <section class="news-grid">
+            <div class="news-card">
+                <img src="https://picsum.photos/300/200" alt="Berita 1">
+                <span class="category-tag">Politik</span>
+                <h3>Presiden Jokowi Gelar Rapat Kabinet Terbatas</h3>
+                <p>Membahas strategi pemulihan ekonomi pasca pandemi dan persiapan menyambut musim liburan...</p>
+                <a href="#">Baca Selengkapnya →</a>
+            </div>
+
+            <div class="news-card">
+                <img src="https://picsum.photos/301/200" alt="Berita 2">
+                <span class="category-tag">Olahraga</span>
+                <h3>Timnas Indonesia Juara Piala AFF 2024</h3>
+                <p>Kemenangan dramatis 3-2 atas Thailand di final mengantarkan Garuda kembali ke puncak...</p>
+                <a href="#">Baca Selengkapnya →</a>
+            </div>
+
+            <div class="news-card">
+                <img src="https://picsum.photos/302/200" alt="Berita 3">
+                <span class="category-tag">Ekonomi</span>
+                <h3>BI Pertahankan Suku Bunga Acuan di 5,75%</h3>
+                <p>Keputusan ini diambil untuk menjaga stabilitas nilai tukar Rupiah sambil memantau inflasi...</p>
+                <a href="#">Baca Selengkapnya →</a>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>© 2024 Berita Hari Ini - All Rights Reserved</p>
+        <p>Redaksi: redaksi@beritahariini.com</p>
+    </footer>
+</body>
+</html>
